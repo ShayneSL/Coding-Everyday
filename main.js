@@ -20,3 +20,17 @@ function positiveSum(arr) {
     }
     return sum 
   }
+
+  function sum (numbers) {
+    if (numbers == []) {
+       return 0
+     } else {
+        let total = 0 
+        for (let i = 0; i < numbers.length; i++) {
+         total += numbers[i]
+       }
+        return total
+     }
+      
+      
+  };
