@@ -80,3 +80,5 @@ function exponent(a,b){
 function subt(a,b){
   return a - b
 }
+
+const nameShuffler = str => str.split(' ').reverse().join(' ');
