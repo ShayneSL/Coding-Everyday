@@ -82,3 +82,7 @@ function subt(a,b){
 }
 
 const nameShuffler = str => str.split(' ').reverse().join(' ');
+
+function digitize(n) {
+  return String(n).split('').reverse().map(Number)
+}
