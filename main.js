@@ -86,3 +86,7 @@ const nameShuffler = str => str.split(' ').reverse().join(' ');
 function digitize(n) {
   return String(n).split('').reverse().map(Number)
 }
+
+function isDivisible(n, x, y) {
+  return (n % x === 0 && n % y === 0) ? true : false;
+}
