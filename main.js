@@ -111,3 +111,5 @@ const humanYearsCatYearsDogYears = (humanYears) => {
   }
   return [humanYears,catYears,dogYears];
 }
+
+const findNeedle = haystack => `found the needle at position ${haystack.indexOf('needle')}`;
