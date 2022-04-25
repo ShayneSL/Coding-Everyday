@@ -113,3 +113,7 @@ const humanYearsCatYearsDogYears = (humanYears) => {
 }
 
 const findNeedle = haystack => `found the needle at position ${haystack.indexOf('needle')}`;
+
+function booleanToString(b){
+  return b ? 'true' : 'false';
+}
