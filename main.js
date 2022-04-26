@@ -117,3 +117,12 @@ const findNeedle = haystack => `found the needle at position ${haystack.indexOf(
 function booleanToString(b){
   return b ? 'true' : 'false';
 }
+
+function stringy(size) {
+  let stringTen = '10'
+  if (size % 2 == 0) {
+    return stringTen.repeat(size/2)
+  } else {
+    return stringTen.repeat((size/2)) + '1'
+  }
+}
