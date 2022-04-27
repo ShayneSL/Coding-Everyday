@@ -126,3 +126,20 @@ function stringy(size) {
     return stringTen.repeat((size/2)) + '1'
   }
 }
+
+function greet(name){  
+  if(name === "Johnny")
+    return "Hello, my love!";
+  return "Hello, " + name + "!";
+}
+
+function trickyOrder(pokeList) {
+return pokeList.split(' ').reverse().join(',')
+}
+
+console.log(trickyOrder('charmander','bulbasaur','squirtle'))
+
+function abbrevName(name){
+  var nameArray = name.split(" ");
+  return (nameArray[0][0] + "." + nameArray[1][0]).toUpperCase();
+}
