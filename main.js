@@ -147,3 +147,6 @@ function abbrevName(name){
 function squareDigits(num){
   return +num.toString().split('').map(i => i*i).join('');
 }
+function minMax(arr){
+  return [Math.min(...arr), Math.max(...arr)];
+}
