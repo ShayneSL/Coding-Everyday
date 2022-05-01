@@ -150,3 +150,5 @@ function squareDigits(num){
 function minMax(arr){
   return [Math.min(...arr), Math.max(...arr)];
 }
+
+const greet = (name, owner) => name == owner? 'Hello boss': 'Hello guest';
