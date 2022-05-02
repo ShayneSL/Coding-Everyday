@@ -153,3 +153,6 @@ function minMax(arr){
 
 const greet = (name, owner) => name == owner? 'Hello boss': 'Hello guest';
 const invert = array => array.map(num => -num);
+function grow(x){
+  return x.reduce((a, b)=> a * b,1);
+}
