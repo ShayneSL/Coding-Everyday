@@ -156,3 +156,6 @@ const invert = array => array.map(num => -num);
 function grow(x){
   return x.reduce((a, b)=> a * b,1);
 }
+function sum(array) {
+  return array.reduce((a,b) => (a+b));
+}
