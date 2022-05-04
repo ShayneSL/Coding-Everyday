@@ -159,3 +159,7 @@ function grow(x){
 function sum(array) {
   return array.reduce((a,b) => (a+b));
 }
+
+function solution(nums){
+  return nums ? nums.sort(function(a, b) { return a - b}) : []
+}
