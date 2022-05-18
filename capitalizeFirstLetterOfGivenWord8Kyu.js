@@ -1,0 +1,1 @@
+const capitalizeWord = (word) => word.replace(word.charAt(0), word.charAt(0).toUpperCase());
